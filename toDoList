@@ -1,3 +1,6 @@
 1> make project level variables
 2> to reshape array(1D to 2D)
 3> custom transformers
+4> add null values and test models with that
+5> understand factorization(        if self.factorize:
+            selection = selection.apply(lambda p: pd.factorize(p)[0] + 1))
